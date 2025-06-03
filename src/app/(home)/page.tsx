@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";  
 import { Progress } from "@/components/ui/progress";
-//import { Textarea } from "@/components/ui/textarea";
+import { Textarea } from "@/components/ui/textarea";
 import { Checkbox } from "@/components/ui/checkbox";
 
 export default function Home(){
@@ -20,7 +20,7 @@ export default function Home(){
         <Progress value={50}/>
       </div>
       <div>
-        <Input type="text" placeholder="I am a text area" />
+        <Textarea placeholder="I am a textarea" />
         </div>  
       <div>
         <Checkbox />
